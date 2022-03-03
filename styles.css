@@ -8,8 +8,18 @@
 body {
     background-color: rgb(53, 52, 52);
 }
+.page-wrapper {
+    display:flex;
+    flex-wrap: wrap;
+}
+.hr {
+    width: 80%;
+    height: 100%;
+    background-color: white;
+}
 h1 {
-    text-align: center;
+    text-align:center;
+    margin-left: 35%;
     font-family: 'Pacifico', cursive;
     font-size: 350%;
     color: white;
@@ -18,7 +28,19 @@ h1 {
 .History-button {
     font-size: 150%;
     border-radius: 10%;
-    margin-left: 10%;
+    margin-left: -300%;
+    margin-top: 70%;
+    float:initial;
+    background-color: rgb(53, 52, 52);
+    border-color: red;
+    color: white;
+}
+.About-me-button {
+    font-size: 145%;
+    border-radius: 10%;
+    margin-left: -200%;
+    margin-top: 70%;
+    float: center;
     background-color: rgb(53, 52, 52);
     border-color: red;
     color: white;
