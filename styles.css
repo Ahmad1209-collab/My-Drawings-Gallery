@@ -15,7 +15,14 @@ h1 {
     color: white;
     margin-top: -8%;
 }
-
+.History-button {
+    font-size: 150%;
+    border-radius: 10%;
+    margin-left: 10%;
+    background-color: rgb(53, 52, 52);
+    border-color: red;
+    color: white;
+}
 .F-s:hover {
     color: red;
 }
