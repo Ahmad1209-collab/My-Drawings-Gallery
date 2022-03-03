@@ -1,0 +1,36 @@
+#Logo {
+    width: 10%;
+    height: 4%;
+    border-radius: 40%;
+    margin-left: 2%;
+    margin-top: 2%;
+}
+body {
+    background-color: rgb(53, 52, 52);
+}
+h1 {
+    text-align: center;
+    font-family: 'Pacifico', cursive;
+    font-size: 350%;
+    color: white;
+    margin-top: -8%;
+}
+
+.F-s:hover {
+    color: red;
+}
+.F-k:hover {
+    color: rgb(255, 0, 255);
+}
+.F-t:hover {
+    color: rgb(47, 0, 255);
+}
+.F-e:hover {
+    color: rgb(0, 238, 255);
+}
+.F-c:hover {
+    color: rgb(145, 255, 0);
+}
+.F-h:hover {
+    color: rgb(255, 217, 0);
+}
