@@ -1,6 +1,6 @@
 body {
     font-family: "lato", sans-serif;
-    background-color: gray;
+    background-color: rgb(68, 68, 68);
 }
 .sidebar {
     height: 100%;
@@ -14,25 +14,78 @@ body {
     padding-top: 20px;
     font-family: 'Bree Serif', serif;
 }
+hr {
+    height: 10px;
+    background-color: rgb(56, 44, 44);
+}
 .sidebar a{
     padding: 6px 8px 6px 18px;
     text-decoration: none;
     font-size: 25px;
     color: #818181;
     display: block;
-
-
+    border: none;
+    background-color: rgb(139, 13, 13);
 }
-.sidebar a:hover {
-    color: #f1f1f1;
-
+.meaning {
+    margin-top: 40px;
+    margin-left: 170px;
+    color: white;
 }
-.main {
+.Gallery {
+    background-color: rgb(139, 13, 13);
+    border-color:rgb(139, 13, 13);
+    border-style: none;
+    color: rgb(153, 153, 153);
+    font-size: 20px;
+}
+.Sketching {
+    background-color: rgb(139, 13, 13);
+    border-color:rgb(139, 13, 13);
+    border-style: none;
+    color: rgb(153, 153, 153);
+    font-size: 20px;
+}
+.Explanation {
+    margin-right: 500px;
+    margin-top: 50px;
+}
+.Sketches {
+    margin-left: 1150px;
+    width: 400px;
+    margin-top: -200px;
+}
+.my-sketches {
     margin-left: 160px;
-    font-size: 28px;
+    font-size: 40px;
     padding: 0px 10px;
     text-align: center;
     font-family: 'Dancing Script', cursive;
+    color: white;
+}
+.about-me {
+    background-color: rgb(139, 13, 13);
+    border-color:rgb(139, 13, 13);
+    border-style: none;
+    color: rgb(153, 153, 153);
+    font-size: 20px;
+}
+.Gallery:hover {
+    color: white;
+}
+.Sketching:hover {
+    color: white;
+}
+.about-me:hover {
+    color: white;
+}
+.main {
+    margin-left: 160px;
+    font-size: 35px;
+    padding: 0px 10px;
+    text-align: center;
+    font-family: 'Dancing Script', cursive;
+    color: white;
 }
 .profile-img {
     width: 100px;
@@ -45,4 +98,7 @@ body {
     .sidebar {padding-top: 150px;}
     .sidebar a{font-size: 150px;}
     
+}
+.picture-a {
+    margin-left: 200px;
 }
