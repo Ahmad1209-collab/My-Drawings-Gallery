@@ -174,7 +174,210 @@ hr {
     transform: scale(1.1);
     box-shadow: 0 30px 45px -15px rgba(255, 0, 0, 0.6);
 }
-@media only screen and (min-width: 375px) {
+@media only screen and (max-width: 375px) {
+    .sidebar {
+        height: 100%;
+        width: 65px;
+        position: fixed;
+        z-index: 1;
+        top: 0;
+        left: 0;
+        background-color: rgb(139, 13, 13);
+        overflow-x: hidden;
+        padding-top: 20px;
+        font-family: 'Bree Serif', serif;
+    }
+    .sidebar a{
+        padding: 6px 8px 6px 18px;
+        text-decoration: none;
+        font-size: 25px;
+        color: #818181;
+        display: block;
+        border: none;
+        background-color: rgb(139, 13, 13);
+    }
+    .Gallery {
+        background-color: rgb(139, 13, 13);
+        border-color:rgb(139, 13, 13);
+        border-style: none;
+        color: rgb(153, 153, 153);
+        font-size: 10px;
+        margin-left: -15px;
+    }
+    .Sketching {
+        background-color: rgb(139, 13, 13);
+        border-color:rgb(139, 13, 13);
+        border-style: none;
+        color: rgb(153, 153, 153);
+        font-size: 10px;
+        margin-left: -16px;
+    }
+    .about-me {
+        background-color: rgb(139, 13, 13);
+        border-color:rgb(139, 13, 13);
+        border-style: none;
+        color: rgb(153, 153, 153);
+        font-size: 10px;
+        margin-left: -16px;
+    }
+    .profile-img {
+        width: 40px;
+        height: 40px;
+        border-radius: 30px;
+        margin-left: -10px;
+        margin-top: 460px;
+    }
+    .main {
+        margin-left: 80px;
+        font-size: 13px;
+        padding: 0px 10px;
+        text-align: center;
+        font-family: 'Dancing Script', cursive;
+        color: white;
+    }
+    .meaning {
+        margin-top: 40px;
+        margin-left: 70px;
+        color: white;
+        font-size: 9px;
+    }
+    .Explanation {
+        margin-right: 20px;
+        margin-top: 20px;
+    }
+    .my-sketches {
+        margin-left: 90px;
+        font-size: 16px;
+        padding: 0px 10px;
+        text-align: center;
+        font-family: 'Dancing Script', cursive;
+        color: white;
+    }
+    .Sketches {
+        margin-left: 10px;
+        width: 250px;
+        margin-top: 50px;
+    }
+    .picture-a {
+        margin-left: 80px;
+        width: 250px;
+        margin-bottom: 20px;
+    }
+    .picture-b {
+        width: 250px;
+        margin-left: 80px;
+        margin-bottom: 20px;
+    }
+    .picture-c {
+        width: 250px;
+        margin-left: 80px;
+        margin-bottom: 20px;
+    }
+    .picture-d {
+        margin-left: 80px;
+        width: 250px;
+        margin-bottom: 20px;
+    }
+    .picture-e {
+        margin-left: 80px;
+        width: 250px;
+        margin-bottom: 20px;
+    }
+    .picture-f {
+        margin-left: 80px;
+        width: 250px;
+        margin-bottom: 40px;
+    }
+    hr {
+        height: 10px;
+        width: 260px;
+        margin-left: 70px;
+        background-color: rgb(56, 44, 44);
+    }
+    .Github-footer {
+        width: 40px;
+        height: 40px;
+        border-radius: 360px;
+        float: center;
+        margin-left: 50%;
+        margin-right: 45%;
+        margin-bottom: -20px;
+        margin-top: 30px;
+    }
+    .Facebook-Account-mine {
+        border-radius: 2000px;
+        width: 40px;
+        margin-left: 34%;
+        margin-top: -200px;
+        box-shadow: 0 20px 20px -17px rgb(252, 252, 252);
+    }
+    .Instagram-Account-mine {
+        border-radius: 2000px;
+        width: 40px;
+        margin-left: 65%;
+        margin-top: -190px;
+        box-shadow: 0 20px 20px -17px rgb(253, 0, 0);
+    }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 280px) {
     .sidebar {
         height: 100%;
         width: 75px;
@@ -201,31 +404,31 @@ hr {
         border-color:rgb(139, 13, 13);
         border-style: none;
         color: rgb(153, 153, 153);
-        font-size: 10px;
-        margin-left: -10px;
+        font-size: 9px;
+        margin-left: -15px;
     }
     .Sketching {
         background-color: rgb(139, 13, 13);
         border-color:rgb(139, 13, 13);
         border-style: none;
         color: rgb(153, 153, 153);
-        font-size: 10px;
-        margin-left: -10px;
+        font-size: 9px;
+        margin-left: -16px;
     }
     .about-me {
         background-color: rgb(139, 13, 13);
         border-color:rgb(139, 13, 13);
         border-style: none;
         color: rgb(153, 153, 153);
-        font-size: 10px;
-        margin-left: -6px;
+        font-size: 9px;
+        margin-left: -16px;
     }
     .profile-img {
         width: 40px;
         height: 40px;
         border-radius: 30px;
         margin-left: 4%;
-        margin-top: 460px;
+        margin-top: 490px;
     }
     .main {
         margin-left: 90px;
@@ -242,7 +445,7 @@ hr {
         font-size: 9px;
     }
     .Explanation {
-        margin-right: 20px;
+        margin-right: 1px;
         margin-top: 20px;
     }
     .my-sketches {
@@ -254,43 +457,43 @@ hr {
         color: white;
     }
     .Sketches {
-        margin-left: 11px;
-        width: 250px;
+        margin-left: 1px;
+        width: 200px;
         margin-top: 50px;
     }
     .picture-a {
-        margin-left: 90px;
-        width: 250px;
+        margin-left: 80px;
+        width: 200px;
         margin-bottom: 20px;
     }
     .picture-b {
-        width: 250px;
-        margin-left: 90px;
+        width: 200px;
+        margin-left: 80px;
         margin-bottom: 20px;
     }
     .picture-c {
-        width: 250px;
-        margin-left: 90px;
+        width: 200px;
+        margin-left: 80px;
         margin-bottom: 20px;
     }
     .picture-d {
-        margin-left: 90px;
-        width: 250px;
+        margin-left: 80px;
+        width: 200px;
         margin-bottom: 20px;
     }
     .picture-e {
-        margin-left: 90px;
-        width: 250px;
+        margin-left: 80px;
+        width: 200px;
         margin-bottom: 20px;
     }
     .picture-f {
-        margin-left: 90px;
-        width: 250px;
+        margin-left: 80px;
+        width: 200px;
         margin-bottom: 40px;
     }
     hr {
         height: 10px;
-        width: 260px;
+        width: 200px;
         margin-left: 80px;
         background-color: rgb(56, 44, 44);
     }
@@ -307,15 +510,15 @@ hr {
     .Facebook-Account-mine {
         border-radius: 2000px;
         width: 40px;
-        margin-left: 34%;
+        margin-left: 30%;
         margin-top: -200px;
         box-shadow: 0 20px 20px -17px rgb(252, 252, 252);
     }
     .Instagram-Account-mine {
         border-radius: 2000px;
         width: 40px;
-        margin-left: 65%;
-        margin-top: -190px;
+        margin-left: 70%;
+        margin-top: -240px;
         box-shadow: 0 20px 20px -17px rgb(253, 0, 0);
     }
 
