@@ -225,7 +225,7 @@ hr {
         height: 40px;
         border-radius: 30px;
         margin-left: -10px;
-        margin-top: 460px;
+        margin-top: 420px;
     }
     .main {
         margin-left: 80px;
@@ -240,9 +240,10 @@ hr {
         margin-left: 70px;
         color: white;
         font-size: 9px;
+        margin-right: 50px;
     }
     .Explanation {
-        margin-right: 20px;
+        margin-right: 150px;
         margin-top: 20px;
     }
     .my-sketches {
@@ -290,8 +291,8 @@ hr {
     }
     hr {
         height: 10px;
-        width: 260px;
-        margin-left: 70px;
+        width: 100px;
+        margin-left: 900px;
         background-color: rgb(56, 44, 44);
     }
     .Github-footer {
@@ -326,58 +327,7 @@ hr {
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-@media only screen and (max-width: 280px) {
+@media only screen and (min-width: 280px) {
     .sidebar {
         height: 100%;
         width: 75px;
