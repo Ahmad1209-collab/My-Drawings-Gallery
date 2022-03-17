@@ -11,6 +11,10 @@ h1 {
     font-family: 'Dancing Script', cursive;
     color: white;
 }
+hr {
+    height: 10px;
+    background-color: rgb(56, 44, 44);
+}
 .sidebar {
     height: 100%;
     width: 160px;
@@ -77,4 +81,194 @@ h1 {
     border-radius: 30px;
     margin-left: 12%;
     margin-top: 750px;
+}
+.picture-a {
+width: 500px;
+margin-left: 25%;
+margin-top:100px ;
+}
+.picture-b {
+    width: 500px;
+    margin-left: 2%;
+}
+.picture-c {
+    width: 400px;
+    margin-left: 160px;
+    margin-top: 30px;
+}
+.picture-d {
+    width: 400px;
+}
+.picture-e {
+    width: 400px;
+}
+.picture-f {
+    width: 400px;
+}
+.picture-g {
+    width: 400px;
+    margin-left: 160px;
+    margin-top: 30px;
+}
+.picture-h {
+    width: 400px;
+}
+.picture-i {
+    width: 400px;
+}
+.picture-j {
+    width: 400px;
+}
+.picture-k {
+    width: 400px;
+    margin-left: 160px;
+    margin-top: 30px;
+}
+.picture-l {
+    width: 400px;
+}
+.picture-m {
+    width: 400px;
+}
+.picture-n {
+    width: 400px;
+}
+.picture-o {
+    width: 400px;
+    margin-left: 160px;
+    margin-top: 30px;
+}
+.picture-p {
+    width: 400px;
+}
+.picture-q {
+    width: 400px;
+}
+.picture-s {
+    width: 400px;
+}
+.picture-t {
+    width: 400px;
+    margin-left: 160px;
+    margin-top: 30px;
+    margin-bottom: 100px;
+}
+.picture-u {
+    width: 400px;
+    margin-bottom: 100px;
+}
+.picture-v {
+    width: 400px;
+    height: 500px;
+    margin-bottom: 100px;
+}
+.picture-r {
+    width: 400px;
+    margin-bottom: 100px;
+}
+.picture-a:hover {
+    transform: scale(1.1);
+}
+.picture-b:hover {
+    transform: scale(1.1);
+}
+.picture-c:hover {
+    transform: scale(1.1);
+}
+.picture-d:hover {
+    transform: scale(1.1);
+}
+.picture-e:hover {
+    transform: scale(1.1);
+}
+.picture-f:hover {
+    transform: scale(1.1);
+}
+.picture-g:hover {
+    transform: scale(1.1);
+}
+.picture-h:hover {
+    transform: scale(1.1);
+}
+.picture-i:hover {
+    transform: scale(1.1);
+}
+.picture-j:hover {
+    transform: scale(1.1);
+}
+.picture-k:hover {
+    transform: scale(1.1);
+}
+.picture-l:hover {
+    transform: scale(1.1);
+}
+.picture-m:hover {
+    transform: scale(1.1);
+}
+.picture-n:hover {
+    transform: scale(1.1);
+}
+.picture-o:hover {
+    transform: scale(1.1);
+}
+.picture-p:hover {
+    transform: scale(1.1);
+}
+.picture-q:hover {
+    transform: scale(1.1);
+}
+.picture-r:hover {
+    transform: scale(1.1);
+}
+.picture-s:hover {
+    transform: scale(1.1);
+}
+.picture-t:hover {
+    transform: scale(1.1);
+}
+.picture-u:hover {
+    transform: scale(1.1);
+}
+.picture-v:hover {
+    transform: scale(1.1);
+}
+
+.Github-footer {
+    width: 90px;
+    height: 90px;
+    border-radius: 360px;
+    float: center;
+    margin-left: 50%;
+    margin-right: 45%;
+    margin-bottom: -20px;
+    margin-top: 30px;
+}
+.Facebook-Account-mine {
+    border-radius: 2000px;
+    width: 90px;
+    margin-left: 34%;
+    margin-top: -200px;
+    box-shadow: 0 20px 20px -17px rgb(252, 252, 252);
+}
+.Instagram-Account-mine {
+    border-radius: 2000px;
+    width: 90px;
+    margin-left: 67%;
+    margin-top: -130px;
+    box-shadow: 0 20px 20px -17px rgb(253, 0, 0);
+}
+.Instagram-Account-mine:hover
+{
+    transform: scale(1.1);
+    box-shadow: 0 30px 45px -15px rgba(255, 0, 0, 0.6);
+}
+.Facebook-Account-mine:hover
+{
+    transform: scale(1.1);
+    box-shadow: 0 30px 45px -15px rgba(25, 0, 255, 0.6);
+}
+.Github-footer:hover
+{
+    transform: scale(1.1);
+    box-shadow: 0 30px 45px -15px rgba(255, 0, 0, 0.6);
 }
