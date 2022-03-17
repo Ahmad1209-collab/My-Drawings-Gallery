@@ -225,7 +225,7 @@ hr {
         height: 40px;
         border-radius: 30px;
         margin-left: 4%;
-        margin-top: 480px;
+        margin-top: 460px;
     }
     .main {
         margin-left: 90px;
@@ -239,11 +239,11 @@ hr {
         margin-top: 40px;
         margin-left: 80px;
         color: white;
-        font-size: 10px;
+        font-size: 9px;
     }
     .Explanation {
         margin-right: 20px;
-        margin-top: 50px;
+        margin-top: 20px;
     }
     .my-sketches {
         margin-left: 90px;
@@ -254,40 +254,39 @@ hr {
         color: white;
     }
     .Sketches {
-        margin-left: 17px;
+        margin-left: 11px;
         width: 250px;
         margin-top: 50px;
     }
     .picture-a {
-        margin-left: 95px;
+        margin-left: 90px;
         width: 250px;
         margin-bottom: 20px;
     }
     .picture-b {
         width: 250px;
-        margin-left: 95px;
+        margin-left: 90px;
         margin-bottom: 20px;
     }
     .picture-c {
-        margin-left: 200px;
         width: 250px;
-        margin-left: 95px;
+        margin-left: 90px;
         margin-bottom: 20px;
     }
     .picture-d {
-        margin-left: 95px;
+        margin-left: 90px;
         width: 250px;
         margin-bottom: 20px;
     }
     .picture-e {
-        margin-left: 95px;
+        margin-left: 90px;
         width: 250px;
         margin-bottom: 20px;
     }
     .picture-f {
-        margin-left: 95px;
+        margin-left: 90px;
         width: 250px;
-        margin-bottom: 100px;
+        margin-bottom: 40px;
     }
     hr {
         height: 10px;
