@@ -1,12 +1,24 @@
 
+h2 {
+    font-size: 40px;
+    padding: 0px 10px;
+    margin-left: 55%;
+    margin-top: 100px;
+    font-family: 'Dancing Script', cursive;
+    color: white;
+}
 .my-image {
     width: 400px;
     border-radius: 50px;
     margin-left: 10%;
+    margin-top: -200px;
 }
 body {
     font-family: "lato", sans-serif;
     background-color: rgb(68, 68, 68);
+}
+.Email {
+    text-decoration: underline;
 }
 .sidebar {
     height: 100%;
@@ -26,6 +38,16 @@ body {
     text-align: center;
     font-family: 'Dancing Script', cursive;
     color: white;
+}
+.Description {
+    margin-left: 35%;
+    color: white;
+    font-size: 20px;
+} 
+.Descripton-A {
+    margin-left: 35%;
+    color: white;
+    font-size: 20px;
 }
 hr {
     height: 10px;
