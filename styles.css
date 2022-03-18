@@ -174,7 +174,255 @@ hr {
     transform: scale(1.1);
     box-shadow: 0 30px 45px -15px rgba(255, 0, 0, 0.6);
 }
-@media only screen and (max-width: 375px) {
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (min-width: 280px) {
+    .sidebar {
+        height: 100%;
+        width: 65px;
+        position: fixed;
+        z-index: 1;
+        top: 0;
+        left: 0;
+        background-color: rgb(139, 13, 13);
+        overflow-x: hidden;
+        padding-top: 20px;
+        font-family: 'Bree Serif', serif;
+    }
+    .sidebar a{
+        padding: 6px 8px 6px 18px;
+        text-decoration: none;
+        font-size: 25px;
+        color: #818181;
+        display: block;
+        border: none;
+        background-color: rgb(139, 13, 13);
+    }
+    .Gallery {
+        background-color: rgb(139, 13, 13);
+        border-color:rgb(139, 13, 13);
+        border-style: none;
+        color: rgb(153, 153, 153);
+        font-size: 9px;
+        margin-left: -15px;
+    }
+    .Sketching {
+        background-color: rgb(139, 13, 13);
+        border-color:rgb(139, 13, 13);
+        border-style: none;
+        color: rgb(153, 153, 153);
+        font-size: 9px;
+        margin-left: -16px;
+    }
+    .about-me {
+        background-color: rgb(139, 13, 13);
+        border-color:rgb(139, 13, 13);
+        border-style: none;
+        color: rgb(153, 153, 153);
+        font-size: 9px;
+        margin-left: -16px;
+    }
+    .profile-img {
+        width: 40px;
+        height: 40px;
+        border-radius: 30px;
+        margin-left: -7px;
+        margin-top: 460px;
+        display: none;
+    }
+    .main {
+        margin-left: 90px;
+        font-size: 13px;
+        padding: 0px 10px;
+        text-align: center;
+        font-family: 'Dancing Script', cursive;
+        color: white;
+    }
+    .meaning {
+        margin-top: 40px;
+        margin-left: 80px;
+        color: white;
+        font-size: 9px;
+    }
+    .Explanation {
+        margin-right: 2px;
+        margin-top: 20px;
+    }
+    .my-sketches {
+        margin-left: 90px;
+        font-size: 16px;
+        padding: 0px 10px;
+        text-align: center;
+        font-family: 'Dancing Script', cursive;
+        color: white;
+    }
+    .Sketches {
+        margin-left: 1px;
+        width: 180px;
+        margin-top: 50px;
+    }
+    .picture-a {
+        margin-left: 80px;
+        width: 180px;
+        margin-bottom: 20px;
+    }
+    .picture-b {
+        width: 180px;
+        margin-left: 80px;
+        margin-bottom: 20px;
+    }
+    .picture-c {
+        width: 180px;
+        margin-left: 80px;
+        margin-bottom: 20px;
+    }
+    .picture-d {
+        margin-left: 80px;
+        width: 180px;
+        margin-bottom: 20px;
+    }
+    .picture-e {
+        margin-left: 80px;
+        width: 180px;
+        margin-bottom: 20px;
+    }
+    .picture-f {
+        margin-left: 80px;
+        width: 180px;
+        margin-bottom: 40px;
+    }
+    hr {
+        height: 10px;
+        width: 180px;
+        margin-left: 80px;
+        background-color: rgb(56, 44, 44);
+    }
+    .Github-footer {
+        width: 40px;
+        height: 40px;
+        border-radius: 360px;
+        float: center;
+        margin-left: 50%;
+        margin-right: 45%;
+        margin-bottom: -20px;
+        margin-top: 30px;
+    }
+    .Facebook-Account-mine {
+        border-radius: 2000px;
+        width: 40px;
+        margin-left: 30%;
+        margin-top: -200px;
+        box-shadow: 0 20px 20px -17px rgb(252, 252, 252);
+    }
+    .Instagram-Account-mine {
+        border-radius: 2000px;
+        width: 40px;
+        margin-left: 70%;
+        margin-top: -240px;
+        box-shadow: 0 20px 20px -17px rgb(253, 0, 0);
+    }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (min-width: 414px) {
+    hr {
+        width: 290px;
+    } 
+    .profile-img {
+        margin-top: 650px;
+        display: none;
+    }
+    .Sketches {
+        margin-left: 1px;
+        width: 300px;
+        margin-top: 50px;
+    }
+    .picture-a {
+        margin-left: 80px;
+        width: 300px;
+        margin-bottom: 20px;
+    }
+    .picture-b {
+        width: 300px;
+        margin-left: 80px;
+        margin-bottom: 20px;
+    }
+    .picture-c {
+        width: 300px;
+        margin-left: 80px;
+        margin-bottom: 20px;
+    }
+    .picture-d {
+        margin-left: 80px;
+        width: 300px;
+        margin-bottom: 20px;
+    }
+    .picture-e {
+        margin-left: 80px;
+        width: 300px;
+        margin-bottom: 20px;
+    }
+    .picture-f {
+        margin-left: 80px;
+        width: 300px;
+        margin-bottom: 40px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (min-width: 375px) {
     .sidebar {
         height: 100%;
         width: 65px;
@@ -220,13 +468,6 @@ hr {
         font-size: 10px;
         margin-left: -16px;
     }
-    .profile-img {
-        width: 40px;
-        height: 40px;
-        border-radius: 30px;
-        margin-left: -10px;
-        margin-top: 420px;
-    }
     .main {
         margin-left: 80px;
         font-size: 13px;
@@ -243,7 +484,7 @@ hr {
         margin-right: 50px;
     }
     .Explanation {
-        margin-right: 150px;
+        margin-right: 5px;
         margin-top: 20px;
     }
     .my-sketches {
@@ -256,43 +497,43 @@ hr {
     }
     .Sketches {
         margin-left: 10px;
-        width: 250px;
+        width: 280px;
         margin-top: 50px;
     }
     .picture-a {
         margin-left: 80px;
-        width: 250px;
+        width: 280px;
         margin-bottom: 20px;
     }
     .picture-b {
-        width: 250px;
+        width: 280px;
         margin-left: 80px;
         margin-bottom: 20px;
     }
     .picture-c {
-        width: 250px;
+        width: 280px;
         margin-left: 80px;
         margin-bottom: 20px;
     }
     .picture-d {
         margin-left: 80px;
-        width: 250px;
+        width: 280px;
         margin-bottom: 20px;
     }
     .picture-e {
         margin-left: 80px;
-        width: 250px;
+        width: 280px;
         margin-bottom: 20px;
     }
     .picture-f {
         margin-left: 80px;
-        width: 250px;
+        width: 280px;
         margin-bottom: 40px;
     }
     hr {
         height: 10px;
-        width: 368px;
-        margin-left: 900px;
+        width: 280px;
+        margin-left: 80px;
         background-color: rgb(56, 44, 44);
     }
     .Github-footer {
@@ -327,129 +568,258 @@ hr {
 
 
 
-@media only screen and (min-width: 280px) {
-    .sidebar {
-        height: 100%;
-        width: 75px;
-        position: fixed;
-        z-index: 1;
-        top: 0;
-        left: 0;
-        background-color: rgb(139, 13, 13);
-        overflow-x: hidden;
-        padding-top: 20px;
-        font-family: 'Bree Serif', serif;
+
+
+@media only screen and (min-width: 375px) {
+    .profile-img {
+        width: 50px;
+        height: 50px;
+        border-radius: 30px;
+        margin-bottom: 20px;
+        margin-top: -1000px;
+        margin-left: -12px;
+        display: none;
     }
-    .sidebar a{
-        padding: 6px 8px 6px 18px;
-        text-decoration: none;
-        font-size: 25px;
-        color: #818181;
-        display: block;
-        border: none;
-        background-color: rgb(139, 13, 13);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (min-width: 360px) {
+    hr {
+        width: 265px;
+    }
+    .profile-img {
+        margin-top: 560px;
+        display: none;
+    }
+    .Sketches {
+        margin-left: 1px;
+        width: 270px;
+        margin-top: 50px;
+    }
+    .picture-a {
+        margin-left: 75px;
+        width: 280px;
+        margin-bottom: 20px;
+    }
+    .picture-b {
+        width: 280px;
+        margin-left: 75px;
+        margin-bottom: 20px;
+    }
+    .picture-c {
+        width: 280px;
+        margin-left: 75px;
+        margin-bottom: 20px;
+    }
+    .picture-d {
+        margin-left: 75px;
+        width: 280px;
+        margin-bottom: 20px;
+    }
+    .picture-e {
+        margin-left: 75px;
+        width: 280px;
+        margin-bottom: 20px;
+    }
+    .picture-f {
+        margin-left: 75px;
+        width: 280px;
+        margin-bottom: 40px;
+    }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (min-width: 412px) {
+    hr {
+        width: 310px;
+    }
+    .profile-img {
+        margin-top: 720px;
+        display: none;
+    }
+    .meaning {
+        margin-left: 90px;
+        margin-right: 0;
+    }
+    .Sketches {
+        margin-left: 1px;
+        width: 300px;
+        margin-top: 50px;
+    }
+    .picture-a {
+        margin-left: 88px;
+        width: 300px;
+        margin-bottom: 20px;
+    }
+    .picture-b {
+        margin-left: 88px;
+        width: 300px;
+        margin-bottom: 20px;
+    }
+    .picture-c {
+        margin-left: 88px;
+        width: 300px;
+        margin-bottom: 20px;
+    }
+    .picture-d {
+        margin-left: 88px;
+        width: 300px;
+        margin-bottom: 20px;
+    }
+    .picture-e {
+        margin-left: 88px;
+        width: 300px;
+        margin-bottom: 20px;
+    }
+    .picture-f {
+        margin-left: 88px;
+        width: 300px;
+        margin-bottom: 40px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (min-width: 820px) {
+    hr {
+        width: 850px;
+        margin-left: 145px;
+    }
+    .meaning {
+        font-size: 20px;
+        margin-left: 150px;
+    }
+    .sidebar {
+        width: 140px;
+    }
+    .Sketches {
+        width: 600px;
+        margin-left: 25px;
     }
     .Gallery {
         background-color: rgb(139, 13, 13);
         border-color:rgb(139, 13, 13);
         border-style: none;
         color: rgb(153, 153, 153);
-        font-size: 9px;
+        font-size: 25px;
         margin-left: -15px;
+        margin-top: 20px;
     }
     .Sketching {
         background-color: rgb(139, 13, 13);
         border-color:rgb(139, 13, 13);
         border-style: none;
         color: rgb(153, 153, 153);
-        font-size: 9px;
+        font-size: 25px;
         margin-left: -16px;
+        margin-top: 10px;
     }
     .about-me {
         background-color: rgb(139, 13, 13);
         border-color:rgb(139, 13, 13);
         border-style: none;
         color: rgb(153, 153, 153);
-        font-size: 9px;
+        font-size: 25px;
         margin-left: -16px;
+        margin-top: 10px;
     }
     .profile-img {
-        width: 40px;
-        height: 40px;
-        border-radius: 30px;
-        margin-left: 4%;
-        margin-top: 490px;
+        width: 100px;
+        height: 100px;
+        margin-top: 940px;
+        display: none;
     }
     .main {
-        margin-left: 90px;
-        font-size: 13px;
-        padding: 0px 10px;
-        text-align: center;
-        font-family: 'Dancing Script', cursive;
-        color: white;
-    }
-    .meaning {
-        margin-top: 40px;
         margin-left: 80px;
-        color: white;
-        font-size: 9px;
-    }
-    .Explanation {
-        margin-right: 1px;
-        margin-top: 20px;
-    }
-    .my-sketches {
-        margin-left: 90px;
-        font-size: 16px;
+        font-size: 30px;
         padding: 0px 10px;
         text-align: center;
         font-family: 'Dancing Script', cursive;
         color: white;
-    }
-    .Sketches {
-        margin-left: 1px;
-        width: 200px;
-        margin-top: 50px;
     }
     .picture-a {
-        margin-left: 80px;
-        width: 200px;
+        margin-left: 155px;
+        width: 300px;
         margin-bottom: 20px;
     }
     .picture-b {
-        width: 200px;
-        margin-left: 80px;
+        margin-left: 30px;
+        width: 300px;
         margin-bottom: 20px;
     }
     .picture-c {
-        width: 200px;
-        margin-left: 80px;
+        margin-left: 155px;
+        width: 300px;
         margin-bottom: 20px;
     }
     .picture-d {
-        margin-left: 80px;
-        width: 200px;
+        margin-left: 30px;
+        width: 300px;
         margin-bottom: 20px;
+        height: 400px;
     }
     .picture-e {
-        margin-left: 80px;
-        width: 200px;
+        margin-left: 155px;
+        width: 300px;
         margin-bottom: 20px;
     }
     .picture-f {
-        margin-left: 80px;
-        width: 200px;
+        margin-left: 30px;
+        width: 300px;
         margin-bottom: 40px;
+        height: 400px;
+        margin-top: 10px;
     }
-    hr {
-        height: 10px;
-        width: 200px;
-        margin-left: 80px;
-        background-color: rgb(56, 44, 44);
+    .my-sketches {
+        margin-left: 90px;
+        font-size: 40px;
+        padding: 0px 10px;
+        text-align: center;
+        font-family: 'Dancing Script', cursive;
+        color: white;
     }
     .Github-footer {
-        width: 40px;
-        height: 40px;
+        width: 60px;
+        height: 60px;
         border-radius: 360px;
         float: center;
         margin-left: 50%;
@@ -459,17 +829,716 @@ hr {
     }
     .Facebook-Account-mine {
         border-radius: 2000px;
-        width: 40px;
-        margin-left: 30%;
+        width: 60px;
+        margin-left: 34%;
         margin-top: -200px;
         box-shadow: 0 20px 20px -17px rgb(252, 252, 252);
     }
     .Instagram-Account-mine {
         border-radius: 2000px;
-        width: 40px;
-        margin-left: 70%;
-        margin-top: -240px;
+        width: 60px;
+        margin-left: 65%;
+        margin-top: -190px;
         box-shadow: 0 20px 20px -17px rgb(253, 0, 0);
     }
+}
 
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (min-width: 768px) {
+    .sidebar {
+        width: 110px;
+    }
+    hr {
+        margin-left: 125px;
+        width: 590px;
+    }
+    .meaning {
+        margin-left: 120px;
+        font-size: 20px;
+    }
+    .Explanation {
+        margin-right: 20px;
+    }
+    .Sketches {
+        width: 600px;
+        margin-left: 8px;
+    }
+    .my-sketches {
+        font-size: 30px;
+    }
+    .Gallery {
+        font-size: 20px;
+        margin-top: 20px;
+    }
+    .Sketching {
+        font-size: 20px;
+        margin-top: 20px;
+    }
+    .about-me {
+        font-size: 20px;
+        margin-top: 20px;
+    }
+    .main {
+        font-size: 20px;
+    }
+    .profile-img {
+        width: 80px;
+        height: 80px;
+        margin-left: 1px;
+        margin-top: 720px;
+        display: none;
+    }
+    .picture-a {
+        margin-left: 155px;
+        width: 250px;
+        margin-bottom: 20px;
+    }
+    .picture-b {
+        margin-left: 30px;
+        width: 250px;
+        margin-bottom: 20px;
+    }
+    .picture-c {
+        margin-left: 155px;
+        width: 250px;
+        margin-bottom: 20px;
+    }
+    .picture-d {
+        margin-left: 30px;
+        width: 250px;
+        height: 330px;
+    }
+    .picture-e {
+        margin-left: 155px;
+        width: 250px;
+        margin-bottom: 20px;
+    }
+    .picture-f {
+        margin-left: 30px;
+        width: 250px;
+        margin-bottom: 40px;
+        height: 320px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (min-width: 912px) {
+    hr {
+        width: 650px;
+        margin-left: 190px;
+    }
+    .sidebar {
+        width: 170px;
+    }
+    .Gallery {
+        font-size: 35px;
+        margin-top: 30px;
+    }
+    .Sketching {
+        font-size: 35px;
+        margin-top: 20px;
+    }
+    .about-me {
+        font-size: 30px;
+        margin-top: 20px;
+    }
+    .meaning {
+        margin-left: 180px;
+    }
+    .main {
+        font-size: 40px;
+    }
+    .Sketches {
+        width: 650px;
+        margin-left: 25px;
+    }
+    .profile-img {
+        width: 130px;
+        height: 130px;
+        margin-top: 950px;
+        border-radius: 50px;
+        display: none;
+    }
+    .picture-a {
+        margin-left: 210px;
+        width: 300px;
+        margin-bottom: 20px;
+    }
+    .picture-b {
+        margin-left: 30px;
+        width: 300px;
+        margin-bottom: 20px;
+    }
+    .picture-c {
+        margin-left: 210px;
+        width: 300px;
+        margin-bottom: 20px;
+    }
+    .picture-d {
+        margin-left: 30px;
+        width: 300px;
+        height: 400px;
+    }
+    .picture-e {
+        margin-left: 210px;
+        width: 300px;
+        margin-bottom: 20px;
+    }
+    .picture-f {
+        margin-left: 30px;
+        width: 300px;
+        margin-bottom: 40px;
+        height: 390px;
+    }
+    .my-sketches {
+        font-size: 50px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (min-width: 540px) {
+    hr {
+        width: 400px;
+        margin-left: 105px;
+    }
+    .sidebar {
+        width: 100px;
+    }
+    .Gallery {
+        font-size: 20px;
+        margin-left: -20px;
+    }
+    .Sketching {
+        font-size: 20px;
+        margin-left: -20px;
+    }
+    .about-me {
+        font-size: 19px;
+        margin-left: -20px;
+    }
+    .main {
+        font-size: 30px;
+    }
+    .meaning {
+        margin-left: 110px;
+    }
+    .Explanation {
+        margin-right: 15px;
+    }
+    .Sketches {
+        width: 350px;
+        margin-left: 25px;
+    }
+    .picture-a {
+        margin-left: 150px;
+        width: 300px;
+        margin-bottom: 20px;
+    }
+    .picture-b {
+        margin-left: 150px;
+        width: 300px;
+        margin-bottom: 20px;
+    }
+    .picture-c {
+        margin-left: 150px;
+        width: 300px;
+        margin-bottom: 20px;
+    }
+    .picture-d {
+        margin-left: 150px;
+        width: 300px;
+        height: 400px;
+    }
+    .picture-e {
+        margin-left: 150px;
+        width: 300px;
+        margin-bottom: 20px;
+    }
+    .picture-f {
+        margin-left: 150px;
+        width: 300px;
+        margin-bottom: 40px;
+        height: 390px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (min-width: 1024px) {
+    hr {
+        width: 775px;
+        margin-left: 180px;
+    }
+    .sidebar {
+        width: 170px;
+    }
+    .Gallery {
+        font-size: 30px;
+        margin-left: 1px ;
+    }
+    .Sketching {
+        font-size: 30px;
+        margin-left: 1px ;
+    }
+    .about-me {
+        font-size: 30px;
+        margin-left: 1px ;
+    }
+    .meaning {
+        margin-left: 180px;
+    }
+    .Explanation {
+        margin-right: 40px;
+    }
+    .Sketches {
+        width: 700px;
+        margin-left: 40px;
+    }
+    .picture-a {
+        margin-left: 250px;
+        width: 300px;
+        margin-bottom: 20px;
+    }
+    .picture-b {
+        margin-left: 30px;
+        width: 300px;
+        margin-bottom: 20px;
+    }
+    .picture-c {
+        margin-left: 250px;
+        width: 300px;
+        margin-bottom: 20px;
+    }
+    .picture-d {
+        margin-left: 30px;
+        width: 300px;
+        height: 400px;
+    }
+    .picture-e {
+        margin-left: 250px;
+        width: 300px;
+        margin-bottom: 20px;
+    }
+    .picture-f {
+        margin-left: 30px;
+        width: 300px;
+        margin-bottom: 40px;
+        height: 390px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (min-width: 1280px) {
+    hr {
+        width: 1000px;
+        margin-left: 190px;
+    }
+    .Explanation {
+        margin-right: 60px;
+    }
+    .Sketches {
+        width: 950px;
+    }
+    .picture-a {
+        margin-left: 250px;
+        width: 400px;
+        margin-bottom: 20px;
+    }
+    .picture-b {
+        margin-left: 30px;
+        width: 400px;
+        margin-bottom: 20px;
+    }
+    .picture-c {
+        margin-left: 250px;
+        width: 400px;
+        margin-bottom: 20px;
+    }
+    .picture-d {
+        margin-left: 30px;
+        width: 400px;
+        height: 530px;
+    }
+    .picture-e {
+        margin-left: 250px;
+        width: 400px;
+        margin-bottom: 20px;
+    }
+    .picture-f {
+        margin-left: 30px;
+        width: 400px;
+        margin-bottom: 40px;
+        height: 520px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (min-width: 1440px) {
+    hr {
+        width: 1200px;
+        margin-left: 200px;
+        margin-bottom: 50px;
+    }
+    .meaning {
+        margin-left: 190px;
+    }
+    .main {
+        font-size: 40px;
+    }
+    .Sketches {
+        width: 1150px;
+    }
+    .picture-a {
+        margin-left: 250px;
+        width: 500px;
+        margin-bottom: 20px;
+    }
+    .picture-b {
+        margin-left: 30px;
+        width: 500px;
+        margin-bottom: 20px;
+    }
+    .picture-c {
+        margin-left: 250px;
+        width: 500px;
+        margin-bottom: 20px;
+    }
+    .picture-d {
+        margin-left: 30px;
+        width: 500px;
+        height: 660px;
+    }
+    .picture-e {
+        margin-left: 250px;
+        width: 500px;
+        margin-bottom: 20px;
+    }
+    .picture-f {
+        margin-left: 30px;
+        width: 500px;
+        margin-bottom: 40px;
+        height: 650px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (min-width: 2560px) {
+    hr {
+        width: 2300px;
+        margin-left: 210px;
+    }
+    .main {
+        font-size: 50px;
+    }
+    .meaning {
+        font-size: 40px;
+    }
+    .Sketches {
+        width: 2200px;
+        margin-left: 80px;
+    }
+    .my-sketches {
+        font-size: 80px;
+        margin-bottom: 100px;
+    }
+    .picture-a { 
+        margin-left: 400px;
+        width: 800px;
+        margin-bottom: 20px;
+    }
+    .picture-b {
+        margin-left: 300px;
+        width: 800px;
+        margin-bottom: 20px;
+    }
+    .picture-c {
+        margin-left: 400px;
+        width: 800px;
+        margin-bottom: 20px;
+    }
+    .picture-d {
+        margin-left: 300px;
+        width: 800px;
+        height: 1070px;
+    }
+    .picture-e {
+        margin-left: 400px;
+        width: 800px;
+        margin-bottom: 20px;
+    }
+    .picture-f {
+        margin-left: 300px;
+        width: 800px;
+        margin-bottom: 40px;
+        height: 1050px;
+    }
+    .Github-footer {
+        width: 200px;
+        height: 200px;
+        border-radius: 360px;
+        float: center;
+        margin-left: 50%;
+        margin-right: 45%;
+        margin-bottom: -20px;
+        margin-top: 30px;
+    }
+    .Facebook-Account-mine {
+        border-radius: 2000px;
+        width: 200px;
+        margin-left: 34%;
+        margin-top: -200px;
+        box-shadow: 0 20px 20px -17px rgb(252, 252, 252);
+    }
+    .Instagram-Account-mine {
+        border-radius: 2000px;
+        width: 200px;
+        margin-left: 65%;
+        margin-top: -190px;
+        box-shadow: 0 20px 20px -17px rgb(253, 0, 0);
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (min-width: 768px) {
+    hr {
+        width: 550px;
+        margin-left: 165px;
+    }
+    .sidebar {
+        width: 150px;
+    }
+    .Gallery {
+        font-size: 25px;
+        margin-left: 1px;
+    }
+    .Sketching {
+        font-size: 25px;
+        margin-left: 1px;
+    }
+    .about-me {
+        font-size: 25px;
+        margin-left: 1px;
+    }
+    .meaning {
+        font-size: 15PX;
+        margin-left: 160px;
+    }
+    .Sketches {
+        width: 500px;
+    }
+    .picture-a {
+        margin-left: 200px;
+        width: 500px;
+        margin-bottom: 20px;
+    }
+    .picture-b {
+        margin-left: 200px;
+        width: 500px;
+        margin-bottom: 20px;
+    }
+    .picture-c {
+        margin-left: 200px;
+        width: 500px;
+        margin-bottom: 20px;
+    }
+    .picture-d {
+        margin-left: 200px;
+        width: 500px;
+        height: 660px;
+    }
+    .picture-e {
+        margin-left: 200px;
+        width: 500px;
+        margin-bottom: 20px;
+    }
+    .picture-f {
+        margin-left: 200px;
+        width: 500px;
+        margin-bottom: 40px;
+        height: 650px;
+    }
+}
+
+
+
+
+
+
+
+@media only screen and (min-width: 1024px) {
+    hr {
+        width: 800px;
+        margin-left: 165px;
+    }
+    .sidebar {
+        width: 150px;
+    }
+    .Gallery {
+        font-size: 25px;
+        margin-left: 1px;
+    }
+    .Sketching {
+        font-size: 25px;
+        margin-left: 1px;
+    }
+    .about-me {
+        font-size: 25px;
+        margin-left: 1px;
+    }
+    .meaning {
+        font-size: 20PX;
+        margin-left: 160px;
+    }
+    .Sketches {
+        width: 700px;
+        margin-left: 60px;
+    }
+    .picture-a {
+        margin-left: 270px;
+        width: 600px;
+        margin-bottom: 20px;
+    }
+    .picture-b {
+        margin-left: 270px;
+        width: 600px;
+        margin-bottom: 20px;
+    }
+    .picture-c {
+        margin-left: 270px;
+        width: 600px;
+        margin-bottom: 20px;
+    }
+    .picture-d {
+        margin-left: 270px;
+        width: 600px;
+        height: 660px;
+    }
+    .picture-e {
+        margin-left: 270px;
+        width: 600px;
+        margin-bottom: 20px;
+    }
+    .picture-f {
+        margin-left: 270px;
+        width: 600px;
+        margin-bottom: 40px;
+        height: 650px;
+    }
 }
