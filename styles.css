@@ -571,14 +571,16 @@ hr {
 
 
 @media only screen and (min-width: 375px) {
-    .profile-img {
-        width: 50px;
-        height: 50px;
-        border-radius: 30px;
-        margin-bottom: 20px;
-        margin-top: -1000px;
-        margin-left: -12px;
-        display: none;
+    @media only screen and (max-width: 375px){
+        .profile-img {
+            width: 50px;
+            height: 50px;
+            border-radius: 30px;
+            margin-bottom: 20px;
+            margin-top: -1000px;
+            margin-left: -12px;
+            display: none;
+        }
     }
 }
 
@@ -948,7 +950,7 @@ hr {
 
 @media only screen and (min-width: 912px) {
     hr {
-        width: 650px;
+        width: 750px;
         margin-left: 190px;
     }
     .sidebar {
@@ -1016,6 +1018,10 @@ hr {
     }
     .my-sketches {
         font-size: 50px;
+    }
+    .Explanation {
+        margin-right: 100px;
+        font-size: 20px;
     }
 }
 
@@ -1194,46 +1200,48 @@ hr {
 
 
 @media only screen and (min-width: 1280px) {
-    hr {
-        width: 1000px;
-        margin-left: 190px;
-    }
-    .Explanation {
-        margin-right: 60px;
-    }
-    .Sketches {
-        width: 950px;
-    }
-    .picture-a {
-        margin-left: 250px;
-        width: 400px;
-        margin-bottom: 20px;
-    }
-    .picture-b {
-        margin-left: 30px;
-        width: 400px;
-        margin-bottom: 20px;
-    }
-    .picture-c {
-        margin-left: 250px;
-        width: 400px;
-        margin-bottom: 20px;
-    }
-    .picture-d {
-        margin-left: 30px;
-        width: 400px;
-        height: 530px;
-    }
-    .picture-e {
-        margin-left: 250px;
-        width: 400px;
-        margin-bottom: 20px;
-    }
-    .picture-f {
-        margin-left: 30px;
-        width: 400px;
-        margin-bottom: 40px;
-        height: 520px;
+    @media only screen and (max-width: 1280px){
+        hr {
+            width: 1000px;
+            margin-left: 190px;
+        }
+        .Explanation {
+            margin-right: 60px;
+        }
+        .Sketches {
+            width: 950px;
+        }
+        .picture-a {
+            margin-left: 250px;
+            width: 400px;
+            margin-bottom: 20px;
+        }
+        .picture-b {
+            margin-left: 30px;
+            width: 400px;
+            margin-bottom: 20px;
+        }
+        .picture-c {
+            margin-left: 250px;
+            width: 400px;
+            margin-bottom: 20px;
+        }
+        .picture-d {
+            margin-left: 30px;
+            width: 400px;
+            height: 530px;
+        }
+        .picture-e {
+            margin-left: 250px;
+            width: 400px;
+            margin-bottom: 20px;
+        }
+        .picture-f {
+            margin-left: 30px;
+            width: 400px;
+            margin-bottom: 40px;
+            height: 520px;
+        }
     }
 }
 
