@@ -98,6 +98,7 @@ hr {
     border-radius: 30px;
     margin-left: 12%;
     margin-top: 750px;
+    display: none;
 }
 @media screen and (max-height: 450px) {
     .sidebar {padding-top: 150px;}
@@ -142,4 +143,318 @@ hr {
 {
     transform: scale(1.1);
     box-shadow: 0 30px 45px -15px rgba(255, 0, 0, 0.6);
+}
+@media only screen and (min-width: 375px){
+    .sidebar {
+        width: 65px;
+    }
+    .my-image {
+        width: 250px;
+        height: 300px;
+        margin-left: 80px;
+        border-radius: 5%;
+        margin-top: 10px;
+    }
+    .Gallery {
+        font-size: 10px;
+        margin-left: -15px;
+    }
+    .about-me {
+        font-size: 10px;
+        margin-left: -15px;
+    }
+    .Sketching {
+        font-size: 10px;
+        margin-left: -15px;
+    }
+    h2 {
+        font-size: 15px;
+        margin-top: 10px;
+        margin-left: 160px;
+    }
+    .main {
+        font-size: 15px;
+    }
+    hr {
+        width: 250px;
+        margin-left: 80px;
+    }
+    .Description {
+        font-size: 10px;
+        margin-left: 80px;
+        margin-right: 50px;
+    }
+    .Descripton-A {
+        font-size: 10px;
+        margin-bottom: 100px;
+        margin-left: 80px;
+        margin-right: 50px;
+    }
+    .Github-footer {
+        width: 40px;
+        height: 40px;
+        border-radius: 360px;
+        float: center;
+        margin-left: 50%;
+        margin-right: 45%;
+        margin-bottom: -20px;
+        margin-top: 30px;
+    }
+    .Facebook-Account-mine {
+        border-radius: 2000px;
+        width: 40px;
+        margin-left: 34%;
+        margin-top: -200px;
+        box-shadow: 0 20px 20px -17px rgb(252, 252, 252);
+    }
+    .Instagram-Account-mine {
+        border-radius: 2000px;
+        width: 40px;
+        margin-left: 67%;
+        margin-top: -130px;
+        box-shadow: 0 20px 20p
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (min-width: 375px){  
+    .Github-footer {
+        width: 40px;
+        height: 40px;
+        border-radius: 360px;
+        float: center;
+        margin-left: 50%;
+        margin-right: 45%;
+        margin-bottom: -20px;
+        margin-bottom: -200px;
+    }
+    .Facebook-Account-mine {
+        border-radius: 2000px;
+        width: 40px;
+        margin-left: 34%;
+        box-shadow: 0 20px 20px -17px rgb(252, 252, 252);
+        margin-bottom: -180px;
+    }
+    .Instagram-Account-mine {
+        border-radius: 2000px;
+        width: 40px;
+        margin-left: 67%;
+        box-shadow: red;
+        margin-bottom: -160px;
+    }
+    h2 {
+        margin-top: 100px;
+    }
+    .hr-down {
+        margin-bottom: -150px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (min-width: 390px){
+    h2 {
+        margin-left: 120px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (min-width: 360px){
+    .sidebar {
+        width: 65px;
+    }
+    .my-image {
+        width: 250px;
+        height: 300px;
+        margin-left: 80px;
+        border-radius: 5%;
+        margin-top: 10px;
+    }
+    .Gallery {
+        font-size: 10px;
+        margin-left: -15px;
+    }
+    .about-me {
+        font-size: 10px;
+        margin-left: -15px;
+    }
+    .Sketching {
+        font-size: 10px;
+        margin-left: -15px;
+    }
+    h2 {
+        font-size: 15px;
+        margin-top: 10px;
+        margin-left: 160px;
+    }
+    .main {
+        font-size: 15px;
+    }
+    hr {
+        width: 250px;
+        margin-left: 80px;
+    }
+    .Description {
+        font-size: 10px;
+        margin-left: 80px;
+        margin-right: 50px;
+    }
+    .Descripton-A {
+        font-size: 10px;
+        margin-bottom: 100px;
+        margin-left: 80px;
+        margin-right: 50px;
+    }
+    .Github-footer {
+        width: 40px;
+        height: 40px;
+        border-radius: 360px;
+        float: center;
+        margin-left: 50%;
+        margin-right: 45%;
+        margin-top: 250px;
+    }
+    .Facebook-Account-mine {
+        border-radius: 2000px;
+        width: 40px;
+        margin-left: 34%;
+        margin-top: -300px;
+        box-shadow: 0 20px 20px -17px rgb(252, 252, 252);
+    }
+    .Instagram-Account-mine {
+        border-radius: 2000px;
+        width: 40px;
+        margin-left: 67%;
+        margin-top: -300px;
+        box-shadow: 0 20px 20p
+    }
+    h2 {
+        margin-top: 100px;
+    }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (min-width: 820px){
+    .sidebar {
+        width: 150px;
+    }
+    .Gallery {
+        font-size: 30px;
+    }
+    .Sketching {
+        font-size: 30px;
+        margin-top: 10px;
+    }
+    .about-me {
+        font-size: 30px;
+        margin-top: 10px;
+    }
+    hr {
+        margin-left: 160px;
+        width: 600px;
+    }
+    .my-image {
+        width: 500px;
+        height: 600px;
+        margin-left: 200px;
+        margin-top: 20px;
+    }
+    .main {
+        font-size: 30px;
+    }
+    h2 {
+        margin-left: 360px;
+        font-size: 30px;
+    }
+    .Description {
+        margin-left: 200px;
+        font-size: 20px;
+    }
+    .Descripton-A {
+        margin-left: 200px;
+        font-size: 20px;
+    }
+    .Github-footer {
+        width: 50px;
+        height: 50px;
+        border-radius: 360px;
+        float: center;
+        margin-left: 50%;
+        margin-right: 45%;
+        margin-top: 250px;
+    }
+    .Facebook-Account-mine {
+        border-radius: 2000px;
+        width: 50px;
+        margin-left: 34%;
+        margin-top: -300px;
+        box-shadow: 0 20px 20px -17px rgb(252, 252, 252);
+    }
+    .Instagram-Account-mine {
+        border-radius: 2000px;
+        width: 50px;
+        margin-left: 67%;
+        margin-top: -300px;
+        box-shadow: 0 20px 20p
+    }
 }
